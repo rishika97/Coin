@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".coin">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="FLIP THE COIN"
+        android:textColor="#B1A434"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/coin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerInside"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+
+    <Button
+        android:id="@+id/flip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#966058"
+        android:text="FLIP"
+        android:textDirection="firstStrong"
+        android:textIsSelectable="true"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>
