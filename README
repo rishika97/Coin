@@ -1,8 +1,7 @@
-OTP
+# Coin
 
-First select the country in the spinner then put a phone number to get the otp on that 
-phone number.
-Wait for 10 seconds a message would pop up giving the otp put the otp in the editText
-and then click on REGISTER button last Activity comes saying OTP VERIFIED SUCCESSFULLY.
+
+When the app is opened a splash_screen appear for 2.5 seconds on the phone screen
+after that the activity appear for the coin click on FLIP to get a chance of HEADS! or TAILS! using random.
 
 made by Rishika Agrawal
